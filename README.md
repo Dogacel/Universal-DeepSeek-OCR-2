@@ -64,6 +64,7 @@ Choose the sample to run.
 ```Shell
 python sample_cpu.py  # For CPU inference
 
+export PYTORCH_ENABLE_MPS_FALLBACK=1
 python sample_mps.py  # For Apple Metal GPU inference
 
 python sample_cuda.py # For NVIDIA GPU inference
